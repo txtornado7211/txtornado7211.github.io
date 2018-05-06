@@ -1,0 +1,95 @@
+<html> 
+ <head>
+ 	<title>CLASS A CDL Help </title> 
+ 	<link rel="stylesheet" href="css/style.css"/>
+ 	<script type="text/javascript">
+ 	function banner (){
+ 		var text = confirm ("Coming Soon Training Videos!");
+ 		return text;
+ 	}
+ 	function answer(){
+ 			var radio = document.getElementsByName("trivia");
+ 			var selection = false;
+ 			var message = "";
+
+ 			for( var i = 0; i < radio.length; i++) { 
+         if(radio[i].value == "80000" && radio[i].checked == true) { 
+         selection = true; 
+          } //end if statement 
+        } //end for loop
+
+        if(selection == true) {
+        message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+        } else  { 
+  message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+  }
+  document.getElementById("response").innerHTML = message;
+  }
+
+
+ 	</script>
+ 	<a href="http://youtube.com"onclick="return banner()"><header>youtube</header></a>
+    <style>
+
+  p{
+  	  color:black;
+  	  font-size: 15p;
+  
+  }
+    </style> 	
+  </head>
+  <nav>
+<ul id="navmenu">
+<li class="navitem"> <a ref="index.html">Home</a></li>
+<li class="navitem"> <a ref="Pre-Trip Inspection Videos.html">Videos</a></li>
+<li class="navitem"> <a ref="Quizzes">Free Tests</a></li>
+<li class="navitem"> <a ref="Q&A's">Virtual Instructor Training Aides</a></li>
+<li class="navitem"> <a ref="Appointments"> Time and Date Scheduling</a></li>
+</ul>
+
+
+  </nav>
+ <body id="background"> 
+ 	<header><b><ul>Education Provided by:Mike Hardie, Natalie Hardie and Antional Myles- A Total of 40 years in the Industry. We will train you in all facets of the industry to include Written Tests, General Knowledge, Basic Mechanical Appitude, and The Tricks of the Trade as an Owner-Operator. Contact us at 806-517-5053 or 469-773-3730 or by email: "mikehardie@live.com"
+	</ul></b></header>
+<h1> <marquee><b>Education for Class A Students In The Dallas-Ft.Worth Texas Area</b></marquee></h1>
+<header> <img src="https://www.covingtontravel.com/wp-content/uploads/2012/12/Dallas-night-skyline_DCVB_Clay_Coleman.jpg" </header>
+		<iframe width="1200" height="360" src="https://www.youtube.com/embed/DGYuONwK7Nc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<p><p style="color:black;"> We offer <b><u>Internet Instruction for all Written Tests,</u></b> Instructional Videos, hands-on <u><b>Pre-Trip Inspections</b></u>, as well as training with <b><u>Manual Transmission</u></b>- to include<u> <b>Double Clutch method </u></b>, <u><b>Gear Placement</b></U>,<b><u> Rpm Navigational Skills</u></b> and <u><b>Space Management with emphasis on Defensive Driving Skills!</b></u></p>
+	<div class="wrap-list">
+<ol>
+	<li class="listitem"><u>Power Points/With Interactive Videos</u></li>
+	<li class="listitem"><u>Diagrams and Pictures on Air Brakes and Pre Trip Inspections to include Pictures and Videos</u></li>
+	<li class="listitem"><u> Designated One-on-One Virtual Instructor Guidance and Open Forum for Q/A Times</u></li>
+	<li class="listitem"><u> We will train you how to succesfully double-clutch a 10/13/18 Transmission!</u></li>
+	<li class="listitem"><u> If you perfer an automatic transmission, we can train in that as well!</u></li>
+	<li class="listitem"><u> We will teach you the Pre-Trip, In-Cab Inspection, you will also learn the Air-Brakes Test with the vehicle</u></li>
+	<li class="listitem"><u> We will teach you the mandatory Backing Manuevers to include: Straight-Line, Offset, and Parallel (Driver and Passengers Side)</u></li>
+	<li class="listitem"><u> We will train you on how to Blind-Side Back, Alley Dock, and Serpentine Pull-Ups to correct the direction of your backing without the annoying back and forth backing corrections needed to make a tight parking space!</u></li>
+
+</ol>
+</div>
+
+
+<div class="wrap-trivia">
+<h2> <u><center>What is the Gross Weight a <span class="cm" >Commercial Motor Vehicle</span> Can Legally Haul, Without a Special Permit? </center> </u></h2>
+<p> <center>The Gross Vehicle Weight Includes the load weight plus the Vehicle weight?</center></p>
+<form>
+	<div id="response"> </div>
+	<input type="radio" name="trivia" value="25000">25000<br>
+	<input type="radio" name="trivia" value="45000">45000<br>
+	<input type="radio" name="trivia" value="65000">65000<br>
+	<input type="radio" name="trivia" value="80000">80000<br>
+	<input type="button" value="Click Here" onclick="answer()">
+
+</form>
+</div>
+
+	<img src= "http://ak5.picdn.net/shutterstock/videos/4462805/thumb/1.jpg"/>
+	<img src="http://ak2.picdn.net/shutterstock/videos/4618172/thumb/1.jpg"/>
+ 	<hr>
+ 	<center> Hardie Enterprises <a href="https://driving-tests.org/texas/tx-cdl-handbook/">My Favorite Website</a> </center>
+ 	<footer> Created and Owned by: Mike and Natalie Hardie all rights reserved. Copyrighted 2018</footer>
+ </body> 
+</html>
